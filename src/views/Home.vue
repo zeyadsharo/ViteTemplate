@@ -25,10 +25,12 @@ export default defineComponent({
             <router-link
               to="/about"
               class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none"
-              >Next Page</router-link
+              >About Page </router-link
             >
           </div>
-          <ButtonRepo />
+         <div v-for="item in 10">
+           <p>hello </p>
+         </div>
         </div>
       </div>
     </div>
